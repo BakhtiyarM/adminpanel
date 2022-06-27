@@ -10,7 +10,7 @@
 Hello, welcome to this page. Today I create with html and css file for Admin-Panel. I use here html and css tags. 
 ## ## RULES OF USE
 
-> STEP-1: `https://github.com/cavidsuleyman/Arrow-Game.git` <br/>
+> STEP-1: `https://github.com/BakhtiyarM/adminpanel.git` <br/>
 > STEP-2:  enter the `Admin-Panel` folder that appears <br/>
 > STEP-3:  open the folder you are in in a text editor <br/>
 > STEP-4:  run the  all the `index.html` files in the main folder <br/>
