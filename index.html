@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="icon" href="./img/photo.jpeg">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/66c7726021.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class="fab fa-drupal"></i>
+            <span class="logoname">Mango</span>
+        </div>
+
+        <!-- Nav List -->
+
+        <ul class="nav--links">
+            <li>
+                <a href="#" class="active">
+                    <i class="fas fa-border-all"></i>
+                    <span class="links--name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-archive"></i>
+                    <span class="links--name">Product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-list"></i>
+                    <span class="links--name">Order list</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    <span class="links--name">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-stack-exchange"></i>
+                    <span class="links--name">Stock</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-book"></i>
+                    <span class="links--name">Total order</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="links--name">Team</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-comment-alt"></i>
+                    <span class="links--name">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                    <span class="links--name">Favorites</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="links--name">Settings</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="links--name">Log Out</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Finish Nav List -->
+    </div>
+    <section class="home--section">
+        <nav>
+            <div class="sidebar--button">
+                <i class="fas fa-bars"></i>
+                <span class="dashboard">Dashboard</span>
+            </div>
+            <div class="search--box">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="profile--details">
+                <img src="./img/man.jpeg">
+                <span class="admin--name">
+                    John Wick
+                </span>
+                <i class="fas fa-angle-down"></i>
+            </div>
+        </nav>
+        <div class="home--content">
+            <div class="overview--box">
+                <div class="box">
+                    <div class="right--side">
+                        <div class="box--topic">Total Order</div>
+                        <div class="number">40.876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="box">
+                    <div class="right--side">
+                        <div class="box--topic">Total Sales</div>
+                        <div class="number">39.876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-shopping-cart" style="color: rgb(9, 209, 9); background-color: rgb(0, 255, 0);"></i>
+                </div>
+                <div class="box">
+                    <div class="right--side">
+                        <div class="box--topic">Total Profit</div>
+                        <div class="number">$12.876</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-up"></i>
+                            <span class="text">Up from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-shopping-cart" style="color: rgb(255, 166, 0); background-color: rgba(255, 200, 138, 0.89);"></i>
+                </div>
+                <div class="box">
+                    <div class="right--side">
+                        <div class="box--topic">Total Return</div>
+                        <div class="number">11.086</div>
+                        <div class="indicator">
+                            <i class="fas fa-arrow-down" style="background-color: red ;"></i>
+                            <span class="text">Down from yesterday</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-shopping-cart" style="color: rgb(250, 0, 0); background-color: rgba(255, 0, 0, 0.199);"> </i>
+                </div>
+            </div>
+            <br>
+            <div class="centerview--box">
+                <div class="box-3">
+                    <h2>Recent Sales</h2>
+                </div>
+                <div class="left-box">
+                    <div class="box-2">
+                        <h2 class="text-2"> Date</h2>
+                        <br>
+                        <span>02 Jan 2021</span><br>
+                        <span>02 Jan 2021</span><br>
+                        <span>02 Jan 2021</span><br>
+                        <span>02 Jan 2021</span><br>
+                        <span>02 Jan 2021</span><br>
+                        <span>02 Jan 2021</span><br>
+                       
+                    </div>
+                    <div class="box-2">
+                        <h2 class="text-2"> Costumer</h2>
+                        <br>
+                        <span>Alex Doe</span><br>
+                        <span>David Mart</span><br>
+                        <span>Roe Parter</span><br>
+                        <span>Diana Penty</span><br>
+                        <span>Martin Pow</span><br>
+                        <span>Doe Alex</span><br>
+                    </div>
+                    <div class="box-2">
+                        <h2 class="text-2"> Sales</h2>
+                        <br>
+                        <span>Delivered</span><br>
+                        <span>Delivered</span><br>
+                        <span>Returned</span><br>
+                        <span>Pending</span><br>
+                        <span>Delivered</span><br>
+                        <span>Pending</span><br>
+                    </div>
+                    <div class="box-2">
+                        <h2 class="text-2"> Total</h2>
+                        <br>
+                        <span>$204.98</span><br>
+                        <span>$24.55</span><br>
+                        <span>$25.88</span><br>
+                        <span>$170.66</span><br>
+                        <span>$56.56</span><br>
+                        <span>$44.95</span><br>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="box-4">
+                        <h1>Top Seling Product</h1>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/ayaqqabi2.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$1107</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/ayaqqabi.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$1567</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/gözlük.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$1234</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/paltar.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$2312</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/paltar3.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$2985</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/çanta2.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$9963</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/paltar2.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$7685</p>
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="left">
+                            <img src="./img/çanta.jpeg">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="right">
+                            <p>$6354</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
